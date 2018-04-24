@@ -14,8 +14,12 @@ Present the results of the modeling with description of all the steps and struct
 
 ## Steps 
 
-1. Protein Selected (P70922)
+1. Protein Selected 
+    - see [P70922 in fasta](static/P70922.fasta.txt)
 2. Secondary structure was predicted with [jpred](https://swissmodel.expasy.org/) an advanced secondary structure prediction algorithm
+    - see [the jpred results in pdf](jrepd-results/secondary-structure-results.pdf)
+    - this was repeated in a [jalview project](static/P70922-jalview.jvp)
 3. 3D structure was predicted with [swissmodel](https://swissmodel.expasy.org/), homology-modeling server
+    - the results are given in [this report](swiss-model-build/report.html)
 4. Quality of Model was analyzed with [swissmodel qmean](https://swissmodel.expasy.org/qmean/) 
 5. html results and description presented in this repository
