@@ -22,4 +22,5 @@ Present the results of the modeling with description of all the steps and struct
 3. 3D structure was predicted with [swissmodel](https://swissmodel.expasy.org/), homology-modeling server
     - the results are given in [this report](swiss-model-build/report.html)
 4. Quality of Model was analyzed with [swissmodel qmean](https://swissmodel.expasy.org/qmean/) 
-5. html results and description presented in this repository
+    - read [qmean-results/README] for information on the data export
+5. html results and description presented in this repository []()
