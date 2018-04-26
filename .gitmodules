@@ -1,0 +1,3 @@
+[submodule "jsmol-local"]
+	path = jsmol-local
+	url = https://github.com/lpincus/jsmol-local.git
