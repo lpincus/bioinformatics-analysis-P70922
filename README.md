@@ -69,7 +69,9 @@ The 3D structure was predicted with [swissmodel](http://swissmodel.expasy.org/).
 
 
 <script type="text/javascript" src="jsmol-local/JSmol.min.js"></script>
+
 <script type="text/javascript">
+
     var Info = {
         color: "#E8F4FF",
         height: 500,
@@ -78,11 +80,15 @@ The 3D structure was predicted with [swissmodel](http://swissmodel.expasy.org/).
     };
 
 </script>
+
 <script type="text/javascript">
+
   jmolApplet0 = Jmol.getApplet("jmolApplet", Info);
   Jmol.script(jmolApplet,"background white; load swiss-model-build/model/01/model.pdb; spin on;")
+
 </script>
-<br>
+
 <a href="javascript:Jmol.script(jmolApplet,'spin on')">spin</a>
+
 <a href="javascript:Jmol.script(jmolApplet,'spin off')">off</a>
 
