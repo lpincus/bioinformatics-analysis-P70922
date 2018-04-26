@@ -68,7 +68,7 @@ The 3D structure was predicted with [swissmodel](http://swissmodel.expasy.org/).
 ![Static Swissmodel Structure](static/swissmodelstructure.png)
 
 
-<script type="text/javascript" src="jsmol-local/JSmol.min.js"></script>
+<script type="text/javascript" src="JSmol.min.js"></script>
 
 <script type="text/javascript">
 
